@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ponlawatchangto/Desktop/VsCode/RAM/3104/6601001123_HW1/C#/HW1/HW1.csproj",
+      "projectUniqueName": "/Users/ponlawatchangto/Desktop/VsCode/Mylearning/3104/6601001123_HW1/C#/HW1/HW1.csproj",
       "projectName": "HW1",
-      "projectPath": "/Users/ponlawatchangto/Desktop/VsCode/RAM/3104/6601001123_HW1/C#/HW1/HW1.csproj",
+      "projectPath": "/Users/ponlawatchangto/Desktop/VsCode/Mylearning/3104/6601001123_HW1/C#/HW1/HW1.csproj",
       "packagesPath": "/Users/ponlawatchangto/.nuget/packages/",
-      "outputPath": "/Users/ponlawatchangto/Desktop/VsCode/RAM/3104/6601001123_HW1/C#/HW1/obj/",
+      "outputPath": "/Users/ponlawatchangto/Desktop/VsCode/Mylearning/3104/6601001123_HW1/C#/HW1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ponlawatchangto/.nuget/NuGet/NuGet.Config"
