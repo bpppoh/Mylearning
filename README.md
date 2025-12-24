@@ -1,2 +1,1 @@
-this file write by boss
-this file got edited
+This is about what I have learnt in Ramkhamhaeng Com Sci Section. Stay tune !
