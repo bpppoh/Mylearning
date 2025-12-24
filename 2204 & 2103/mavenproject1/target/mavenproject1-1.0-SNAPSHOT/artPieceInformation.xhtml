@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<ui:composition template="/template.xhtml">
+
+    <ui:define name="title">
+        #{artPieceDetailBean.selectedArtPiece.title}
+    </ui:define>
+
+    <ui:define name="head">
+        <style type="text/css">
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 2rem;
+                padding: 1rem;
+            }
+            .image-pane {
+                flex: 1 1 40%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f4f4f4;
+                border-radius: 8px;
+                padding: 2rem;
+                min-width: 300px;
+            }
+            .details-pane {
+                flex: 1 1 55%;
+                padding: 1rem;
+                min-width: 300px;
+            }
+            @media (max-width: 960px) {
+                .flex-container {
+                    flex-direction: column;
+                }
+            }
+
+            .art-image {
+                max-width: 100%;
+                max-height: 500px;
+                object-fit: contain;
+                border-radius: 4px;
+            }
+            .art-title {
+                font-size: 2.5rem;
+                font-weight: 700;
+                margin-bottom: 0.5rem;
+                color: #333;
+            }
+            .artist-name {
+                font-size: 1.2rem;
+                font-weight: 500;
+                color: #555;
+                margin-bottom: 1rem;
+            }
+            .art-price {
+                font-size: 2.2rem;
+                font-weight: bold;
+                color: #007ad9;
+                margin-bottom: 1rem;
+            }
+            .art-description {
+                font-size: 1.1em;
+                line-height: 1.6;
+                color: #555;
+                margin-top: 1.5rem;
+            }
+            .action-buttons .ui-button {
+                margin-right: 10px;
+            }
+        </style>
+    </ui:define>
+
+    <ui:define name="content">
+        <div class="card">
+            <h:form>
+                <p:messages id="messages" showDetail="true" closable="true">
+                    <p:autoUpdate />
+                </p:messages>
+
+                <h:panelGroup rendered="#{artPieceDetailBean.selectedArtPiece != null}">
+                    <div class="flex-container">
+                        
+                        <!-- Left Column: Image -->
+                        <div class="image-pane">
+                            <p:graphicImage value="#{imageStreamer.image}" alt="#{artPieceDetailBean.selectedArtPiece.title}" styleClass="art-image">
+                                <f:param name="artId" value="#{artPieceDetailBean.selectedArtPiece.id}" />
+                            </p:graphicImage>
+                        </div>
+
+                        <!-- Right Column: Details -->
+                        <div class="details-pane">
+                            <h1 class="art-title">#{artPieceDetailBean.selectedArtPiece.title}</h1>
+                            
+                            <p class="artist-name">
+                                By <h:outputText value="#{artPieceDetailBean.artist.username}" rendered="#{artPieceDetailBean.artist != null}" />
+                                   <h:outputText value="Unknown Artist" rendered="#{artPieceDetailBean.artist == null}" />
+                            </p>
+                            
+                            <div>
+                                <p:tag severity="#{artPieceDetailBean.selectedArtPiece.status == 'AVAILABLE' ? 'success' : (artPieceDetailBean.selectedArtPiece.status == 'SOLD' ? 'danger' : 'warning')}" 
+                                       value="#{artPieceDetailBean.selectedArtPiece.status}" 
+                                       style="font-size: 1rem;"/>
+                            </div>
+
+                            <div class="art-price" style="margin-top: 1rem;">
+                                <h:outputText value="#{artPieceDetailBean.selectedArtPiece.price}">
+                                    <f:convertNumber type="currency" currencySymbol="$" locale="en_US"/>
+                                </h:outputText>
+                            </div>
+
+                            <p:divider />
+
+                            <div class="action-buttons">
+                                <p:commandButton value="Buy Now" action="#{artPieceDetailBean.buy}"
+                                                 rendered="#{artPieceDetailBean.selectedArtPiece.status == 'AVAILABLE' and userBean.loggedIn}"
+                                                 icon="pi pi-shopping-cart" styleClass="ui-button-success ui-button-lg"
+                                                 update="@form"/>
+                                                 
+                                <p:button value="Login to Buy" outcome="/login.xhtml?from=/artPieceInformation.xhtml?id=#{artPieceDetailBean.artId}"
+                                          rendered="#{artPieceDetailBean.selectedArtPiece.status == 'AVAILABLE' and not userBean.loggedIn}"
+                                          icon="pi pi-sign-in" styleClass="ui-button-secondary ui-button-lg"/>
+
+                                <p:button value="Back to Gallery" outcome="/gallery.xhtml" icon="pi pi-arrow-left" styleClass="ui-button-outlined"/>
+                            </div>
+
+                            <div class="art-description">
+                                <h:outputText value="#{artPieceDetailBean.selectedArtPiece.description}" escape="false" />
+                            </div>
+                        </div>
+                    </div>
+                </h:panelGroup>
+
+                <h:panelGroup rendered="#{artPieceDetailBean.selectedArtPiece == null}">
+                    <p:panel header="Art Piece Not Found">
+                        <h:outputText value="The requested art piece could not be found or does not exist." />
+                        <br/><br/>
+                        <p:button value="Back to Gallery" outcome="/gallery.xhtml" icon="pi pi-arrow-left" />
+                    </p:panel>
+                </h:panelGroup>
+            </h:form>
+        </div>
+    </ui:define>
+
+</ui:composition>
+</html>

@@ -1,0 +1,38 @@
+<ui:composition
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+>
+	<h:form>
+		<p:menubar>
+			<f:facet name="start">
+				<p:button
+					value="Art Gallery"
+					outcome="/index"
+					icon="pi pi-palette"
+					styleClass="ui-button-flat ui-button-secondary"
+				/>
+			</f:facet>
+
+			<p:menuitem value="View Art" icon="pi pi-images" outcome="/gallery.xhtml"/>
+			<p:menuitem value="Post Art" icon="pi pi-upload" outcome="#{userBean.postArtOutcome}"/>
+			<p:menuitem value="About Us" icon="pi pi-info-circle"/>
+
+			<f:facet name="end">
+                
+                <h:panelGroup rendered="#{empty sessionScope.loggedInUserId}">
+                    <p:button value="Login" outcome="/login.xhtml" icon="pi pi-sign-in" styleClass="ui-button-text"/>
+                    <p:button value="Register" outcome="/register.xhtml" icon="pi pi-user-plus" style="margin-left: 15px;" />
+                </h:panelGroup>
+
+                <h:panelGroup rendered="#{not empty sessionScope.loggedInUserId}">
+                    <p:outputLabel value="Welcome, #{cookie.username.value}!" style="margin-right: 20px; vertical-align: middle;"/>
+                    <p:commandButton value="Logout" action="#{userBean.logout}" icon="pi pi-sign-out" ajax="false" />
+                </h:panelGroup>
+                
+			</f:facet>
+		</p:menubar>
+	</h:form>
+</ui:composition>

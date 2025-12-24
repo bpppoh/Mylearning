@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+
+        <ui:define name="title">
+            Add New Art
+        </ui:define>
+
+        <ui:define name="head">
+            <style type="text/css">
+                .form-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 4rem 1rem;
+                }
+                .form-container .ui-card {
+                    width: 100%;
+                    max-width: 800px;
+                }
+                .form-grid.ui-panelgrid .ui-panelgrid-cell {
+                    padding-bottom: 1.5rem;
+                }
+                .form-grid .ui-outputlabel {
+                    font-weight: 500;
+                }
+                .form-grid .ui-inputtext,
+                .form-grid .ui-inputtextarea,
+                .form-grid .ui-inputnumber,
+                .form-grid .ui-selectonemenu {
+                    width: 100%;
+                }
+                .form-footer-button {
+                    width: 100%;
+                }
+            </style>
+        </ui:define>
+
+        <ui:define name="content">
+            <div class="form-container">
+                <!-- IMPORTANT: enctype is required for file uploads -->
+                <h:form enctype="multipart/form-data">
+                    <p:card>
+                        <f:facet name="title">
+                            Submit Your Artwork
+                        </f:facet>
+                        
+                        <p:messages id="messages" showDetail="true" closable="true">
+                            <p:autoUpdate />
+                        </p:messages>
+
+                        <p:panelGrid columns="2" styleClass="form-grid ui-noborder" columnClasses="ui-grid-col-3,ui-grid-col-9">
+                            <p:outputLabel for="title" value="Title:" />
+                            <p:inputText id="title" value="#{artPieceBean.newArtPiece.title}" required="true"/>
+
+                            <p:outputLabel for="description" value="Description:" />
+                            <p:inputTextarea id="description" value="#{artPieceBean.newArtPiece.description}" rows="4"/>
+
+                            <p:outputLabel for="price" value="Price ($):" />
+                            <p:inputNumber id="price" value="#{artPieceBean.newArtPiece.price}" required="true" />
+
+                            <p:outputLabel for="status" value="Status:" />
+                            <p:selectOneMenu id="status" value="#{artPieceBean.newArtPiece.status}" required="true">
+                                <f:selectItem itemLabel="Select Status" itemValue="#{null}" noSelectionOption="true" />
+                                <f:selectItem itemLabel="Available for Sale" itemValue="AVAILABLE" />
+                                <f:selectItem itemLabel="Not for Sale" itemValue="NOT_FOR_SALE" />
+                            </p:selectOneMenu>
+                            
+                            <p:outputLabel for="file" value="Image File:" />
+                            <p:fileUpload id="file" value="#{artPieceBean.file}" mode="simple" skinSimple="true" required="true" />
+                        </p:panelGrid>
+                        
+                        <f:facet name="footer">
+                            <!-- IMPORTANT: ajax="false" is required for file uploads -->
+                            <p:commandButton value="Submit Artwork" action="#{artPieceBean.createArtPiece}" ajax="false" icon="pi pi-upload" styleClass="form-footer-button"/>
+                        </f:facet>
+                    </p:card>
+                </h:form>
+            </div>
+        </ui:define>
+
+    </ui:composition>
+</html>

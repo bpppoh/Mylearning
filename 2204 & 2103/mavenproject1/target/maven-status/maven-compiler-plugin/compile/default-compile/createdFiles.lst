@@ -1,0 +1,13 @@
+com/mycompany/mavenproject1/controller/ImageStreamer.class
+com/mycompany/mavenproject1/controller/RegisterServlet.class
+com/mycompany/mavenproject1/dao/UserDAO.class
+com/mycompany/mavenproject1/model/User.class
+com/mycompany/mavenproject1/model/ArtPiece$Status.class
+com/mycompany/mavenproject1/model/ArtPiece.class
+com/mycompany/mavenproject1/model/DBConnection.class
+com/mycompany/mavenproject1/resources/JakartaEE10Resource.class
+com/mycompany/mavenproject1/controller/ArtPieceBean.class
+com/mycompany/mavenproject1/controller/UserBean.class
+com/mycompany/mavenproject1/dao/ArtPieceDAO.class
+com/mycompany/mavenproject1/controller/ArtPieceDetailBean.class
+com/mycompany/mavenproject1/JakartaRestConfiguration.class

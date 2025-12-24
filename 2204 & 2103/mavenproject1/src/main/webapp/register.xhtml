@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+
+        <ui:define name="title">
+            User Registration
+        </ui:define>
+
+        <ui:define name="head">
+            <style type="text/css">
+                .form-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 4rem 1rem;
+                }
+                .form-container .ui-card {
+                    width: 100%;
+                    max-width: 450px;
+                }
+                .form-grid.ui-panelgrid .ui-panelgrid-cell {
+                    padding-bottom: 1.5rem;
+                }
+                .form-grid .ui-outputlabel {
+                    font-weight: 500;
+                    margin-bottom: 0.5rem;
+                    display: inline-block;
+                }
+                .form-grid .ui-inputtext, .form-grid .ui-password {
+                    width: 100%;
+                }
+                .form-footer-button {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+                .form-footer-link {
+                    text-align: center;
+                }
+                .form-footer-link a {
+                    color: var(--primary-color);
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                .form-footer-link a:hover {
+                    text-decoration: underline;
+                }
+            </style>
+        </ui:define>
+
+        <ui:define name="content">
+            <div class="form-container">
+                <h:form>
+                    <p:card>
+                        <f:facet name="title">
+                            Create an Account
+                        </f:facet>
+
+                        <p:messages id="messages" showDetail="true" closable="true">
+                            <p:autoUpdate />
+                        </p:messages>
+
+                        <p:panelGrid columns="1" styleClass="form-grid ui-noborder">
+                            <p:outputLabel for="username" value="Username" />
+                            <p:inputText id="username" value="#{userBean.username}" required="true" requiredMessage="Username is required."/>
+
+                            <p:outputLabel for="email" value="Email" />
+                            <p:inputText id="email" value="#{userBean.email}" required="true" requiredMessage="Email is required." />
+
+                            <p:outputLabel for="password" value="Password" />
+                            <p:password id="password" value="#{userBean.password}" required="true" requiredMessage="Password is required." />
+                        </p:panelGrid>
+
+                        <f:facet name="footer">
+                            <p:commandButton value="Register" action="#{userBean.register}" ajax="false" styleClass="form-footer-button"/>
+                            <div class="form-footer-link">
+                                <h:outputText value="Already have an account? " />
+                                <h:link value="Login here" outcome="/login.xhtml" />
+                            </div>
+                        </f:facet>
+                    </p:card>
+                </h:form>
+            </div>
+        </ui:define>
+
+    </ui:composition>
+</html>
