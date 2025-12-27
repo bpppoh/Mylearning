@@ -6,9 +6,7 @@ def printDeck(deck) :
 
 try :
     deck = input("Please enter the cards in the deck (seperates by spaces): ").split()
-    # print(deck)
     command = input("Please enter the commands (e.g. CSCS): ")
-    # print(command)
     for i in range(len(command)) :
         match command[i].lower() :
             case 'c' :
