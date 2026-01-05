@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/ponlawatchangto/Desktop/VsCode/Data IMage Processing/.venv/bin/python" "$0" "$@"
-' '''
+#!/Users/ponlawatchangto/Desktop/VsCode/Mylearning/3401/.venv/bin/python3.13
 import sys
 from jupyter_events.cli import main
 if __name__ == '__main__':
