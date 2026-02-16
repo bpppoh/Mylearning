@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import image_process
 
 img = cv2.imread('pic1.png', 1)
 print(img.shape)
@@ -22,7 +23,7 @@ print(f"min : {np.min(new_img)} , max : {np.max(new_img)}")
 # min : 0 , max : 80
 # max มีเพียง 80 แสดงว่าภาพมืด ฉะนั้นต้องนำไปขยาย scale
 
-new_img_poweredGamma = (((new_img.astype('float')/np.max(new_img))**0.25)*255).astype('uint8')
+new_img_poweredGamma = image_process.powerGamma(new_img,0.25)
 concatImg = cv2.hconcat([new_img,new_img_poweredGamma])
 cv2.imwrite("assignment1_1.jpg",concatImg)
 # แปลงข้อมูลเป็น float >> Normalize >> ยกกำลังด้วย gamma (ยิ่งน้อย ยิ่งสว่าง) >> คูณด้วย 255 แล้วแปลงกลับเป็น uint8
