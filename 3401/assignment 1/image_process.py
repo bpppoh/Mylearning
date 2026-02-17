@@ -26,3 +26,10 @@ def sobel(img) :
     gy = cv2.Sobel(img, cv2.CV_64F, 0, 1, ksize=3)  
     out = np.sqrt(gx**2 + gy**2)
     return out.astype(np.uint8)
+
+def equalization(img):
+    cdf = cv2.calcHist([img],[0],None,[256],[0,256]).flatten().cumsum()
+    cdf_m = np.ma.masked_equal(cdf, 0) 
+    cdf_m = ((cdf_m - cdf_m.min())  / (cdf_m.max() - cdf_m.min()))*255
+    cdf = np.ma.filled(cdf_m, 0).astype('uint8')
+    return cdf[img]
