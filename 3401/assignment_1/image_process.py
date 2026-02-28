@@ -3,12 +3,14 @@ import cv2
 import matplotlib.pyplot as plt
 
 def powerGamma(image,gamma) :
+    # หา Histogram
+    # Plot histogram (plt.savefig() เพื่อบันทึก histogram เป็นภาพ)
     image = image.astype('float')/np.max(image)
     image = (image**gamma*255).astype('uint8')
     return image
 
 def calculate_hist(img,foldername=None,name=None) :
-    hist = cv2.calcHist([img],[0],None,[256],[0,256])
+    hist = cv2.calcHist([img],[0],None,[256],[0,256]) 
     plt.figure()
     plt.plot(hist)
     if name and foldername :
@@ -27,8 +29,13 @@ def sobel(img) :
     out = np.sqrt(gx**2 + gy**2)
     return out.astype(np.uint8)
 
-def equalization(img):
-    cdf = cv2.calcHist([img],[0],None,[256],[0,256]).flatten().cumsum()
+def equalization(img,hist=None):
+    # def equalization(img,hist) :
+    # cdf = hist
+    # เขียนให้สามารถรับ histogram ได้ด้วย เพื่อลดการ calculate histogram ที่ซ้ำซ้อน
+    if hist is None :
+        cdf = cv2.calcHist([img],[0],None,[256],[0,256]).flatten().cumsum()
+    cdf = hist.cumsum()
     cdf_m = np.ma.masked_equal(cdf, 0) 
     cdf_m = ((cdf_m - cdf_m.min())  / (cdf_m.max() - cdf_m.min()))*255
     cdf = np.ma.filled(cdf_m, 0).astype('uint8')
