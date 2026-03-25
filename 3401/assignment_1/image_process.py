@@ -20,8 +20,9 @@ def calculate_hist(img,foldername=None,name=None) :
 
 def image_show(img) :
     cv2.imshow("xxxx",img)
-    cv2.waitKey()
+    cv2.waitKey(0)
     cv2.destroyAllWindows()
+    cv2.waitKey(1)
     
 def sobel(img) :
     gx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=3)  
