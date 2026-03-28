@@ -1,4 +1,4 @@
-from image_process import split_image_color , imread , image_show , rgb2hsv , intermean_method , merge_image
+from image_process import split_image_color , imread , image_show , rgb2hsv , merge_image , calculate_hist , intermean_method
 import numpy as np
 import cv2
 
@@ -11,22 +11,22 @@ noise = [1,0,1,0]
 
 for i in range(len(split_img)) :
     pic = split_img[i]
+    if noise[i] :
+        pic = cv2.medianBlur(pic,3)
     h,s,v = rgb2hsv(pic)
     print(np.amax(v),np.amin(v))
 
     if opt[i] == 1 :
-        h_mid = (np.amax(h) + np.amin(h)) // 2
-        mask = h < h_mid
+        mask = (np.amax(h) + np.amin(h))//2 > h
     elif opt[i] == 2 :
-        mask = s != np.amax(s)
+        mask = (float(np.amax(s)) + float(np.amin(s)))/2.0 > s
     elif opt[i] == 3 :
-        mask = v != np.amin(v)
+        v_uint8 = (v * 255.0).astype(np.uint8)
+        thr = intermean_method(v_uint8, 3)
+        mask = v > 0.1 
     pic = np.zeros_like(h,dtype='uint8')
     pic[mask] = 255
 
-    if noise[i] :
-        pic = cv2.medianBlur(pic,3)
-    
     out.append(pic)
     
 img_out = merge_image(out)
