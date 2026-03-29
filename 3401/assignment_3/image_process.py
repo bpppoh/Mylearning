@@ -113,7 +113,7 @@ def float2int(x):
         result = math.floor(x)
     return result
 
-def intermean_method(img,round) :
+def intermean_method(img,round,reversed=False) :
     T = [] 
     hist = calculate_hist(img).flatten()
     st = 0
@@ -122,7 +122,10 @@ def intermean_method(img,round) :
     for i in range(round) :
         t = intermean(hist,T[-1],st,en)
         T.append(t)
-        st = t
+        if reversed :
+            en = t
+        else :
+            st = t
     return T[-1]
         
 def intermean(hist,t,st,en) :
@@ -160,13 +163,14 @@ def rgb2hsv(img) :
     mask_v = c_max!=0
     s[mask_v] = delta[mask_v]/c_max[mask_v]
     v = c_max
-    return h,s,v
+    return np.stack([h,s,v],axis=2)
 
-def saturation_adjust(h,s,v,factor,st,en) :
+def saturation_adjust(hsv_img,factor,st,en) :
+    h,s,v = cv2.split(hsv_img)
     blue_mask = (h>=st) & (h<=en)
     s[blue_mask] = s[blue_mask] * factor
     s = np.clip(s,0,1.0)
-    return h,s,v
+    return np.stack([h,s,v],axis=2)
 
 def merge_image(img_list) :
     return cv2.vconcat([
@@ -176,3 +180,46 @@ def merge_image(img_list) :
     
 def hsv2gray(img) :
     return cv2.cvtColor(cv2.cvtColor(img,cv2.COLOR_HSV2RGB),cv2.COLOR_RGB2GRAY)
+
+def bgr2cmyk(img) :
+    B,G,R = cv2.split(img)
+    r = R/255.
+    g = G/255.
+    b = B/255.
+    
+    k = 1 - np.maximum(np.maximum(r,g),b)
+    c = (1 - r - k) / (1 - k + 1e-10)
+    m = (1 - g - k) / (1 - k + 1e-10)
+    y = (1 - b - k) / (1 - k + 1e-10)
+    # c = 1 - r
+    # m = 1 - g
+    # y = 1 - b
+    return np.stack([c,m,y,k],axis=2)
+
+def cmyk2bgr(img) :
+    c,m,y,k = cv2.split(img)
+    r = 255 * (1 - c) * (1 - k)
+    g = 255 * (1 - m) * (1 - k)
+    b = 255 * (1 - y) * (1 - k)
+    
+    return np.stack([b,g,r],axis=2).astype(np.uint8)
+
+def otsu(img):
+    hist = cv2.calcHist([img],[0],None,[256],[0,256])
+    tot = np.sum(hist)
+    prob = hist/tot
+    coef_max = -1
+    thr = -1
+    for t in range(1,256):
+        w0 = np.sum(prob[:t]) + 0.00000001
+        w1 = np.sum(prob[t:]) + 0.00000001
+        i0 = np.array([i for i in range(t)])
+        i1 = np.array([i for i in range(t,256)])
+        u0 = np.sum(i0*prob[:t])/w0
+        u1 = np.sum(i1*prob[t:])/w1
+
+        coef = (w0*w1)*np.power(u0-u1,2)
+        if  coef > coef_max:
+            coef_max = coef
+            thr = t
+    return thr
