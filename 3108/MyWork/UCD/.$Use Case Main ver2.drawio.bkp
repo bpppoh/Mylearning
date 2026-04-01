@@ -1,0 +1,161 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="NERDxWxfPjourLgPHrd7">
+    <mxGraphModel dx="843" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="600" width="310" x="270" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-5" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qdpoqg-qVMPBXnDV6KDJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-6" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qdpoqg-qVMPBXnDV6KDJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-7" connectable="0" parent="Qdpoqg-qVMPBXnDV6KDJ-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read" vertex="1">
+          <mxGeometry relative="1" x="-0.3425" y="-2" as="geometry">
+            <mxPoint x="44" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-17" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Qdpoqg-qVMPBXnDV6KDJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ผู้เช่า" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="เข้าสู่ระบบ" vertex="1">
+          <mxGeometry height="40" width="90" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการใบแจ้งหนี้" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ชำระเงิน" vertex="1">
+          <mxGeometry height="40" width="90" x="380" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ตรวจสอบการชำระเงิน" vertex="1">
+          <mxGeometry height="40" width="150" x="350" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ดูรายงานสรุปยอด" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการผู้ใช้งาน" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการพนักงาน" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการรายการซ่อม" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการรายการทำความสะอาด" vertex="1">
+          <mxGeometry height="40" width="190" x="330" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการสถานะห้องพัก" vertex="1">
+          <mxGeometry height="40" width="150" x="350" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการความปลอดภัย&lt;div&gt;และตั้งค่าระบบ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="340" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-23" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Qdpoqg-qVMPBXnDV6KDJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-25" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Qdpoqg-qVMPBXnDV6KDJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-27" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Qdpoqg-qVMPBXnDV6KDJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-29" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Qdpoqg-qVMPBXnDV6KDJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-30" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Qdpoqg-qVMPBXnDV6KDJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-31" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Qdpoqg-qVMPBXnDV6KDJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF0000;fillColor=#FF0000;" value="พนักงานฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-34" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-35" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF8000;" target="Qdpoqg-qVMPBXnDV6KDJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-36" connectable="0" parent="Qdpoqg-qVMPBXnDV6KDJ-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read Update" vertex="1">
+          <mxGeometry relative="1" x="-0.4103" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-33" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF8000;fillColor=#FF8000;" value="ช่างซ่อมบำรุง" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-38" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-39" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-40" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-42" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-43" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-44" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-45" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-46" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="Qdpoqg-qVMPBXnDV6KDJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-37" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#6600CC;fillColor=#6600CC;" value="ผู้จัดการฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-49" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00994D;" target="Qdpoqg-qVMPBXnDV6KDJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-50" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00994D;" target="Qdpoqg-qVMPBXnDV6KDJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-51" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00994D;" target="Qdpoqg-qVMPBXnDV6KDJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-52" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00994D;" target="Qdpoqg-qVMPBXnDV6KDJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-48" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00994D;fillColor=#00994D;" value="Admin" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-54" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000CC;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-55" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000CC;" target="Qdpoqg-qVMPBXnDV6KDJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-56" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000CC;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-57" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000CC;" target="Qdpoqg-qVMPBXnDV6KDJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-53" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0000CC;fillColor=#0000CC;" value="เจ้าของบริษัทฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="680" y="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

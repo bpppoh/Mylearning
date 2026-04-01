@@ -1,0 +1,326 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1665" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="480" as="sourcePoint" />
+            <mxPoint x="244.66" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Website" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="620" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="220" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-63" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#e51400;strokeColor=#B20000;" parent="aM9ryv3xv72pqoxQDRHE-5" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="250" />
+              <mxPoint x="90" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-66" value="บันทึกสำเร็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="SKESpJoTx3Oi-7jnvvh3-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.06" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="[ข้อมูลครบถ้วน]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="360" />
+              <mxPoint x="590" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-10" value="บันทึกข้อมูลการสมัคร" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="330" />
+            </Array>
+            <mxPoint x="500" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-4" value="ลูกค้า" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="235" y="50" width="25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="484.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-16" value="แสดงหน้าจอ สมัครสมาชิก" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="200" />
+            </Array>
+            <mxPoint x="481" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-17" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;เลือกเมนู สมัครสมาชิก&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="150" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-20" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ป้อน &quot;ชื่อผู้ใช้&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="220" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="239.58000000000004" as="sourcePoint" />
+            <mxPoint x="484.5" y="239.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="270" as="sourcePoint" />
+            <mxPoint x="484.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="300" as="sourcePoint" />
+            <mxPoint x="484.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-24" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ป้อน &quot;รหัสผ่าน&quot;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="280" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-25" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ป้อน &quot;อีเมล&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="250" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="484.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-32" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;กดปุ่ม &quot;สมัครสมาชิก&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="310" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-34" value="แสดงข้อความ &quot;สมัครสมาชิกสำเร็จ&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="360" />
+            </Array>
+            <mxPoint x="481" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-35" value="ส่งอีเมลยืนยันการสมัครสมาชิก" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="440" />
+            </Array>
+            <mxPoint x="481" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-36" value="[ส่งอีเมลยืนยันการสมัครสมาชิก]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="440.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="574" y="440" />
+            </Array>
+            <mxPoint x="665" y="440.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="1060" as="sourcePoint" />
+            <mxPoint x="244.65999999999997" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-38" value="Website" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="720" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="SKESpJoTx3Oi-7jnvvh3-38" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-40" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="620" y="720" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" parent="SKESpJoTx3Oi-7jnvvh3-40" vertex="1">
+          <mxGeometry x="45" y="190" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-73" value="" style="endArrow=classic;html=1;rounded=0;" parent="SKESpJoTx3Oi-7jnvvh3-40" source="SKESpJoTx3Oi-7jnvvh3-41" target="SKESpJoTx3Oi-7jnvvh3-41" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="230" as="sourcePoint" />
+            <mxPoint x="70" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="230" />
+              <mxPoint x="100" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-42" value="[ข้อมูลถูกต้อง]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="SKESpJoTx3Oi-7jnvvh3-41" target="SKESpJoTx3Oi-7jnvvh3-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="885" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="990" />
+              <mxPoint x="570" y="1000" />
+              <mxPoint x="590" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-43" value="ตรวจสอบข้อมูล" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="950" />
+            </Array>
+            <mxPoint x="500" y="950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="240" y="790" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-45" value="ผู้ดูแลระบบ,ผู้จัดการ,พนักงาน,&lt;div&gt;พนังานการเงิน,ลูกค้า&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="235" y="680" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-46" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="810" as="sourcePoint" />
+            <mxPoint x="484.5" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-47" value="แสดงหน้าจอ เข้าสู่ระบบ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247.5" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="332.5" y="840" />
+            </Array>
+            <mxPoint x="482.5" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-48" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;เลือกเมนู เข้าสู่ระบบ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="790" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-49" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ป้อน &quot;ชื่อผู้ใช/อีเมล&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="860" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-50" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="880" as="sourcePoint" />
+            <mxPoint x="484.5" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-52" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="914.58" as="sourcePoint" />
+            <mxPoint x="484.5" y="914.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-53" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;ป้อน &quot;รหัสผ่าน&quot;&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="890" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-55" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="950" as="sourcePoint" />
+            <mxPoint x="484.5" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-56" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;กดปุ่ม &quot;เข้าสู่ระบบ&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="930" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-57" value="แสดงหน้าจอ หน้าหลัก" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="0.0029" relative="1" as="geometry">
+            <mxPoint x="250" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="990" />
+            </Array>
+            <mxPoint x="481" y="990" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-58" value="แสดงข้อความ &quot;ชื่อ/อีเมลผู้ใช้, รหัสผ่านไม่ถูกต้อง&quot;&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="1030" />
+            </Array>
+            <mxPoint x="485.5" y="1030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-59" value="[ข้อมูลไม่ถูกต้อง]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="SKESpJoTx3Oi-7jnvvh3-41" target="SKESpJoTx3Oi-7jnvvh3-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="574" y="1030" />
+            </Array>
+            <mxPoint x="660" y="1030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-61" value="[ข้อมูลไม่ครบ]" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="400" />
+              <mxPoint x="585" y="360" />
+            </Array>
+            <mxPoint x="660" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-62" value="แสดงข้อความ &quot;โปรดกรอกข้อมูลให้ครบถ้วน&quot;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="400" />
+            </Array>
+            <mxPoint x="481" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-67" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="330" as="sourcePoint" />
+            <mxPoint x="820" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="330" />
+              <mxPoint x="750" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-69" value="บันทึกไม่สำเร็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="665" y="378" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-70" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#0000FF;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="SKESpJoTx3Oi-7jnvvh3-1" target="SKESpJoTx3Oi-7jnvvh3-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="400" as="sourcePoint" />
+            <mxPoint x="160" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="400" />
+              <mxPoint x="200" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SKESpJoTx3Oi-7jnvvh3-72" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="SKESpJoTx3Oi-7jnvvh3-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1030" as="sourcePoint" />
+            <mxPoint x="200" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1030" />
+              <mxPoint x="200" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

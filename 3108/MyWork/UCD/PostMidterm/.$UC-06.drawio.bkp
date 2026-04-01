@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="NERDxWxfPjourLgPHrd7">
+    <mxGraphModel dx="1045" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="500" width="310" x="270" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yicnntu5axsvTc0ucJBF-7" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Yicnntu5axsvTc0ucJBF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ผู้เช่า" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Yicnntu5axsvTc0ucJBF-8" edge="1" parent="1" source="Qdpoqg-qVMPBXnDV6KDJ-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="Yicnntu5axsvTc0ucJBF-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdpoqg-qVMPBXnDV6KDJ-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF0000;fillColor=#FF0000;" value="พนักงานฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="690" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-3" edge="1" parent="1" source="Yicnntu5axsvTc0ucJBF-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XO2psc0I2DnhrsR0vqnB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-4" connectable="0" parent="XO2psc0I2DnhrsR0vqnB-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2271" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-12" edge="1" parent="1" source="Yicnntu5axsvTc0ucJBF-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XO2psc0I2DnhrsR0vqnB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-13" connectable="0" parent="XO2psc0I2DnhrsR0vqnB-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0563" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yicnntu5axsvTc0ucJBF-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="จัดการใบแจ้งหนี้" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ดึงข้อมูลเลขมิเตอร์" vertex="1">
+          <mxGeometry height="40" width="120" x="290" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="คำนวณยอดชำระ" vertex="1">
+          <mxGeometry height="40" width="120" x="450" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="แก้ไขค่ามิเตอร์ที่บันทึก" vertex="1">
+          <mxGeometry height="40" width="120" x="290" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="พิมพ์/ดาวน์โหลด&lt;div&gt;ใบแจ้งหนี้&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-18" edge="1" parent="1" source="XO2psc0I2DnhrsR0vqnB-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.301;entryY=0.927;entryDx=0;entryDy=0;entryPerimeter=0;" target="Yicnntu5axsvTc0ucJBF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-20" connectable="0" parent="XO2psc0I2DnhrsR0vqnB-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1284" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-19" edge="1" parent="1" source="XO2psc0I2DnhrsR0vqnB-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.713;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" target="Yicnntu5axsvTc0ucJBF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XO2psc0I2DnhrsR0vqnB-21" connectable="0" parent="XO2psc0I2DnhrsR0vqnB-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1268" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

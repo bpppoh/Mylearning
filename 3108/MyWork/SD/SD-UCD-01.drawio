@@ -1,0 +1,179 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2612" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aTSVLvykbT8djYgzZpLX-5" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" target="aTSVLvykbT8djYgzZpLX-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aTSVLvykbT8djYgzZpLX-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;พนักงาน​ดูแลหอพัก&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.833;exitY=0.098;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" target="8jPlneuPlOyDARN1qjiN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="240" />
+            </Array>
+            <mxPoint x="89.99500000000012" y="240.07999999999993" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-2" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;เลือกเมนู จัดการใบแจ้งหนี้&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2578" y="1" as="geometry">
+            <mxPoint x="-39" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102.5" y="370" as="sourcePoint" />
+            <mxPoint x="400" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-14" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;เลือกเดือนที่ต้องการ + กดยืนยัน&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3153" y="-2" as="geometry">
+            <mxPoint x="-48" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aTSVLvykbT8djYgzZpLX-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="750" width="15" x="87.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8jPlneuPlOyDARN1qjiN-1" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" target="8jPlneuPlOyDARN1qjiN-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407.5" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-15" connectable="0" parent="8jPlneuPlOyDARN1qjiN-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Application&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6351" y="-2" as="geometry">
+            <mxPoint x="2" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="102.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jPlneuPlOyDARN1qjiN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="750" width="15" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8jPlneuPlOyDARN1qjiN-3" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" target="8jPlneuPlOyDARN1qjiN-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="737.5" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-18" connectable="0" parent="8jPlneuPlOyDARN1qjiN-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IoT System&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4947" y="2" as="geometry">
+            <mxPoint x="-2" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jPlneuPlOyDARN1qjiN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="750" width="15" x="730" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-4" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" target="xpRRi3Nu1nIvIFS98-OL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1047.5" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-19" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Database&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0667" as="geometry">
+            <mxPoint y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-34" edge="1" parent="1" source="xpRRi3Nu1nIvIFS98-OL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.992;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" target="8jPlneuPlOyDARN1qjiN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="570" />
+            </Array>
+            <mxPoint x="420" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-36" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ส่งข้อมูลค่ามิเตอร์เดือนที่แล้วของทุกห้อง&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3039" y="-2" as="geometry">
+            <mxPoint x="257" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="750" width="15" x="1040" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-9" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;แสดงหน้าจอ จัดการใบแจ้งหนี้&lt;/span&gt;" vertex="1">
+          <mxGeometry x="250" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="370" as="sourcePoint" />
+            <mxPoint x="730" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-17" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ขอข้อมูลค่ามิเตอร์ปัจจุบันของทุกห้อง&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1429" as="geometry">
+            <mxPoint x="-15" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="500" as="sourcePoint" />
+            <mxPoint x="1040" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-21" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="ขอข้อมูลค่ามิเตอร์เดือนที่แล้วของทุกห้อง" vertex="1">
+          <mxGeometry relative="1" x="-0.1781" y="3" as="geometry">
+            <mxPoint x="-92" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-22" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="loop" vertex="1">
+          <mxGeometry height="200" width="760" x="330" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416" y="709.9526315789473" as="sourcePoint" />
+            <mxPoint x="1040" y="709.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-26" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="บันทึกใบแจ้งหนี้ และค่ามิเตอร์ปัจจุบัน" vertex="1">
+          <mxGeometry relative="1" x="-0.6489" y="-3" as="geometry">
+            <mxPoint x="45" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-24" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="คำนวนรายจ่ายจากส่วนต่างของแต่ละห้อง" vertex="1">
+          <mxGeometry x="570" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.971;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="770.567619047619" as="sourcePoint" />
+            <mxPoint x="414.5649999999998" y="770.0199999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-28" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;บันทึกสำเร็จ&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2341" y="-2" as="geometry">
+            <mxPoint x="80" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.916;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401.26" y="870.567619047619" as="sourcePoint" />
+            <mxPoint x="102.50000000000001" y="870.0199999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-30" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;แสดงข้อความ &quot;ดำเนินการเสร็จสิ้น&quot;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3339" y="1" as="geometry">
+            <mxPoint x="48" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.971;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730.0000000000002" y="429.997619047619" as="sourcePoint" />
+            <mxPoint x="414.5649999999998" y="430.0499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpRRi3Nu1nIvIFS98-OL-32" connectable="0" parent="xpRRi3Nu1nIvIFS98-OL-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ส่งข้อมูลมิเตอร์ปัจจุบัน&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2182" y="3" as="geometry">
+            <mxPoint x="33" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

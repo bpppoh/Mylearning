@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram id="nPTs7O9Elap-OZZIpGqh" name="Page-1">
+    <mxGraphModel dx="1306" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FcdUPlBzDijkkzF3mSer-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" value="" vertex="1">
+          <mxGeometry height="590" width="616" x="184" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-17" edge="1" parent="1" source="FcdUPlBzDijkkzF3mSer-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FcdUPlBzDijkkzF3mSer-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=18;" value="ผู้เช่า" vertex="1">
+          <mxGeometry height="160" width="80" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-6" edge="1" parent="1" source="FcdUPlBzDijkkzF3mSer-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="FcdUPlBzDijkkzF3mSer-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-13" connectable="0" parent="FcdUPlBzDijkkzF3mSer-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" value="&amp;lt;include&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.225" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" value="แจ้งชำระค่าเช่า" vertex="1">
+          <mxGeometry height="70" width="140" x="479.95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-8" edge="1" parent="1" source="FcdUPlBzDijkkzF3mSer-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="FcdUPlBzDijkkzF3mSer-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-14" connectable="0" parent="FcdUPlBzDijkkzF3mSer-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" value="&amp;lt;include&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.16" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" value="เลือกรายการค้างชำระ" vertex="1">
+          <mxGeometry height="90" width="180" x="459.95" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" value="แนบสลิปโอนเงิน" vertex="1">
+          <mxGeometry height="70" width="140" x="479.95" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" value="ตรวจสอบการชำระเงิน" vertex="1">
+          <mxGeometry height="70" width="220.1" x="439.9" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-12" edge="1" parent="1" source="FcdUPlBzDijkkzF3mSer-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="FcdUPlBzDijkkzF3mSer-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-16" connectable="0" parent="FcdUPlBzDijkkzF3mSer-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" value="&amp;lt;extend&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2078" as="geometry">
+            <mxPoint x="-16" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FcdUPlBzDijkkzF3mSer-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" value="บันทึกช่วยจำ" vertex="1">
+          <mxGeometry height="70" width="140" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="QvflTCZhjHtLc4hlkN_G-2" edge="1" parent="1" source="QvflTCZhjHtLc4hlkN_G-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#CC0000,#CC0000);" target="FcdUPlBzDijkkzF3mSer-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QvflTCZhjHtLc4hlkN_G-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=18;fillColor=light-dark(#CC0000,#CC0000);strokeColor=light-dark(#CC0000,#CC0000);" value="พนักงานฯ" vertex="1">
+          <mxGeometry height="160" width="80" x="850" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="หน้า-1" id="kM_mSmu7mS4110woZSnI">
+    <mxGraphModel dx="741" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="30" width="600" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="114" y="70" as="sourcePoint" />
+            <mxPoint x="714" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-1" target="Ho1nCvWzvz4DmyexRYWI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="440" as="sourcePoint" />
+            <mxPoint x="414" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-4" value="Actor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="214" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-5" value="System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="534" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-47" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="239" y="85" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-47" target="Ho1nCvWzvz4DmyexRYWI-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-49" value="เลือกเมนู เติมเครดิต" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="184" y="145" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-50" value="แสดงหน้าจอ เติมเครดิต" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="514" y="145" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-51" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-50" target="Ho1nCvWzvz4DmyexRYWI-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="310" as="targetPoint" />
+            <mxPoint x="614" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-52" value="กรอกจำนวนที่ต้องการเติม" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="184" y="225" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-49" target="Ho1nCvWzvz4DmyexRYWI-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394" y="285" as="targetPoint" />
+            <mxPoint x="474" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-54" value="กดปุ่ม ยืนยันทำรายการ" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="184" y="310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-55" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-54" target="Ho1nCvWzvz4DmyexRYWI-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-52" target="Ho1nCvWzvz4DmyexRYWI-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="485" as="targetPoint" />
+            <mxPoint x="254" y="325" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-57" value="รอการชำระเงิน" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="293.75" width="130" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-58" value="ยกเลิก" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-57" target="Ho1nCvWzvz4DmyexRYWI-62">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="714" y="375" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-59" value="&amp;nbsp;ชำระแล้ว&lt;div&gt;&amp;nbsp;[อัปเดตสถานะการชำระ]&lt;/div&gt;&lt;div&gt;&amp;nbsp;[อัปเดตเครดิต]&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-57" target="Ho1nCvWzvz4DmyexRYWI-60">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="574" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-60" value="แสดงหน้าจอเครดิตที่อัปเดตแล้ว" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="459" y="450" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-60" target="Ho1nCvWzvz4DmyexRYWI-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="564" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-62" value="แสดงข้อความ&amp;nbsp;&lt;div&gt;&quot;หมดเวลาชำระเงินโปรดทำรายการใหม่&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="459" y="225" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-63" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="534" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-64" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ho1nCvWzvz4DmyexRYWI-62" target="Ho1nCvWzvz4DmyexRYWI-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="335" as="targetPoint" />
+            <mxPoint x="404" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-65" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="114" y="585" width="600" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry width="600" height="234.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-67" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="35.00153846153846" as="sourcePoint" />
+            <mxPoint x="600" y="35.00153846153846" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ho1nCvWzvz4DmyexRYWI-65" source="Ho1nCvWzvz4DmyexRYWI-66" target="Ho1nCvWzvz4DmyexRYWI-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="276" y="173.53846153846152" as="sourcePoint" />
+            <mxPoint x="326" y="155.46153846153845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-69" value="Actor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry x="120" y="14.465384615384615" width="60" height="10.846153846153845" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-70" value="System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry x="430" y="14.465384615384615" width="60" height="10.846153846153845" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-87" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry x="121" y="45" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="Ho1nCvWzvz4DmyexRYWI-65" source="Ho1nCvWzvz4DmyexRYWI-87" target="Ho1nCvWzvz4DmyexRYWI-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-89" value="เลือกเมนู ข้อมูลการเติม" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry x="66" y="105" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-90" value="แสดงหน้าจอ ข้อมูลการเติมเครดิต" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry x="396" y="105" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-91" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ho1nCvWzvz4DmyexRYWI-65" source="Ho1nCvWzvz4DmyexRYWI-89" target="Ho1nCvWzvz4DmyexRYWI-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="276" y="245" as="targetPoint" />
+            <mxPoint x="356" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-92" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ho1nCvWzvz4DmyexRYWI-65" source="Ho1nCvWzvz4DmyexRYWI-90" target="Ho1nCvWzvz4DmyexRYWI-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446" y="515" as="targetPoint" />
+            <mxPoint x="422" y="365" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ho1nCvWzvz4DmyexRYWI-93" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Ho1nCvWzvz4DmyexRYWI-65">
+          <mxGeometry x="468" y="195" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

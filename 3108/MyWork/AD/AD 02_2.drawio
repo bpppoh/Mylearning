@@ -1,0 +1,117 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="lO-HgkxdYF4mhtu7Xole">
+    <mxGraphModel dx="435" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-5" parent="1" style="swimlane;" value="Actor" vertex="1">
+          <mxGeometry height="630" width="300" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-9" edge="1" parent="PJ7bjFbaFIxvQIApwdj4-5" source="PJ7bjFbaFIxvQIApwdj4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-7" parent="PJ7bjFbaFIxvQIApwdj4-5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-8" parent="PJ7bjFbaFIxvQIApwdj4-5" style="rounded=1;whiteSpace=wrap;html=1;" value="เลือกเมนู &quot;จัดการผู้ใช้งาน&quot;" vertex="1">
+          <mxGeometry height="40" width="160" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-12" parent="PJ7bjFbaFIxvQIApwdj4-5" style="rounded=1;whiteSpace=wrap;html=1;" value="กดปุ่ม &quot;แก้ไขข้อมูลผู้เช่า&quot;" vertex="1">
+          <mxGeometry height="40" width="160" x="70" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-33" edge="1" parent="PJ7bjFbaFIxvQIApwdj4-5" source="PJ7bjFbaFIxvQIApwdj4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-30" parent="PJ7bjFbaFIxvQIApwdj4-5" style="rounded=1;whiteSpace=wrap;html=1;" value="ป้อนข้อมูลที่ต้องการแก้ไข" vertex="1">
+          <mxGeometry height="40" width="160" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-32" parent="PJ7bjFbaFIxvQIApwdj4-5" style="rounded=1;whiteSpace=wrap;html=1;" value="กดยืนยัน" vertex="1">
+          <mxGeometry height="40" width="80" x="110" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-6" parent="1" style="swimlane;" value="System" vertex="1">
+          <mxGeometry height="630" width="300" x="420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-10" parent="PJ7bjFbaFIxvQIApwdj4-6" style="rounded=1;whiteSpace=wrap;html=1;" value="แสดงรายชื่อผู้เช่าปัจจุบัน" vertex="1">
+          <mxGeometry height="40" width="160" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-26" parent="PJ7bjFbaFIxvQIApwdj4-6" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=9.36;" value="" vertex="1">
+          <mxGeometry height="100" width="100" x="90" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-28" parent="PJ7bjFbaFIxvQIApwdj4-6" style="rounded=1;whiteSpace=wrap;html=1;" value="แสดงฟอร์มสำหรับแก้ไขข้อมูล" vertex="1">
+          <mxGeometry height="40" width="160" x="70" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-36" edge="1" parent="PJ7bjFbaFIxvQIApwdj4-6" source="PJ7bjFbaFIxvQIApwdj4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-42" connectable="0" parent="PJ7bjFbaFIxvQIApwdj4-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="สำเร็จ" vertex="1">
+          <mxGeometry relative="1" x="-0.3615" y="-1" as="geometry">
+            <mxPoint x="-5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-39" edge="1" parent="PJ7bjFbaFIxvQIApwdj4-6" source="PJ7bjFbaFIxvQIApwdj4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-43" connectable="0" parent="PJ7bjFbaFIxvQIApwdj4-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ไม่สำเร็จ" vertex="1">
+          <mxGeometry relative="1" x="0.6044" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-34" parent="PJ7bjFbaFIxvQIApwdj4-6" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="ตรวจสอบรูปแบบข้อมูล" vertex="1">
+          <mxGeometry height="80" width="160" x="30" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-37" parent="PJ7bjFbaFIxvQIApwdj4-6" style="rounded=1;whiteSpace=wrap;html=1;" value="แสดง Modal &quot;ดำเนินการแก้ไขสำเร็จ&quot;" vertex="1">
+          <mxGeometry height="60" width="80" x="200" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-38" edge="1" parent="PJ7bjFbaFIxvQIApwdj4-6" source="PJ7bjFbaFIxvQIApwdj4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.02;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;" target="PJ7bjFbaFIxvQIApwdj4-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-40" parent="PJ7bjFbaFIxvQIApwdj4-6" style="rounded=1;whiteSpace=wrap;html=1;" value="แสดง Modal &quot;ข้อมูลไม่ถูกต้อง&quot;" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-11" edge="1" parent="1" source="PJ7bjFbaFIxvQIApwdj4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-13" edge="1" parent="1" source="PJ7bjFbaFIxvQIApwdj4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-29" edge="1" parent="1" source="PJ7bjFbaFIxvQIApwdj4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-31" edge="1" parent="1" source="PJ7bjFbaFIxvQIApwdj4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-35" edge="1" parent="1" source="PJ7bjFbaFIxvQIApwdj4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PJ7bjFbaFIxvQIApwdj4-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ7bjFbaFIxvQIApwdj4-41" edge="1" parent="1" source="PJ7bjFbaFIxvQIApwdj4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="PJ7bjFbaFIxvQIApwdj4-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="510" />
+              <mxPoint x="140" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

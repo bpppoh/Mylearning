@@ -9,8 +9,9 @@ import pandas as pd
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.page_load_strategy = 'eager'
-driver = webdriver.Chrome(options=chrome_options)
 chrome_options.add_argument("--window-size=1920,1080")
+driver = webdriver.Chrome(options=chrome_options)
+
 driver.get("https://www.lotuss.com/th")
 searchBox = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.ID,"search-bar-input"))

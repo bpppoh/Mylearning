@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="t_rn4AQ-CmBYyyi8T9gE">
+    <mxGraphModel dx="871" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="550" width="380" x="210" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-16" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.111;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ผู้เช่า" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-17" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF0000;fillColor=#FF0000;" value="พนักงานฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-18" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF8000;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF8000;fillColor=#FF8000;" value="ช่างซ่อมบำรุง" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-22" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#6600CC;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#6600CC;fillColor=#6600CC;" value="ผู้จัดการฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-21" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00994D;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00994D;fillColor=#00994D;" value="Admin" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0000CC;fillColor=#0000CC;" value="เจ้าของบริษัทฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-19" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#00B7CC;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00B7CC;fillColor=#00B7CC;" value="พนักงานทำความสะอาด&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-14" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="z-o6HoNOcRBkrZsgkUDD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-15" connectable="0" parent="z-o6HoNOcRBkrZsgkUDD-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2133" y="-1" as="geometry">
+            <mxPoint x="-1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="เข้าสู่ระบบ" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="กรอก Username , Password" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-20" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.922;entryY=0.728;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0000CC;" target="z-o6HoNOcRBkrZsgkUDD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-26" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="z-o6HoNOcRBkrZsgkUDD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-27" connectable="0" parent="z-o6HoNOcRBkrZsgkUDD-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2111" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ลืมรหัสผ่าน" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

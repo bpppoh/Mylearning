@@ -35,7 +35,7 @@ def equalization(img,hist=None):
     # cdf = hist
     # เขียนให้สามารถรับ histogram ได้ด้วย เพื่อลดการ calculate histogram ที่ซ้ำซ้อน
     if hist is None :
-        cdf = cv2.calcHist([img],[0],None,[256],[0,256]).flatten().cumsum()
+        hist = cv2.calcHist([img],[0],None,[256],[0,256]).flatten().cumsum()
     cdf = hist.cumsum()
     cdf_m = np.ma.masked_equal(cdf, 0) 
     cdf_m = ((cdf_m - cdf_m.min())  / (cdf_m.max() - cdf_m.min()))*255

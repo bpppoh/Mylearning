@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="-7uCyQ9jRc_d0LNrggCW">
+    <mxGraphModel dx="1306" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-4" edge="1" parent="1" source="zpkBnLflo6V4OjZN0MWJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zpkBnLflo6V4OjZN0MWJ-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-6" edge="1" parent="1" source="zpkBnLflo6V4OjZN0MWJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zpkBnLflo6V4OjZN0MWJ-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="เจ้าของกิจการ" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="ผู้ดูแลระบบ" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-8" edge="1" parent="1" source="zpkBnLflo6V4OjZN0MWJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zpkBnLflo6V4OjZN0MWJ-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="ผู้จัดการอพาร์ทเมนต์" vertex="1">
+          <mxGeometry height="60" width="160" x="690" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-10" edge="1" parent="1" source="zpkBnLflo6V4OjZN0MWJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zpkBnLflo6V4OjZN0MWJ-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-12" edge="1" parent="1" source="zpkBnLflo6V4OjZN0MWJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="zpkBnLflo6V4OjZN0MWJ-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="พนักงานดูแลหอพัก" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="ช่างซ่อมบำรุง" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zpkBnLflo6V4OjZN0MWJ-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;meta charset=&quot;utf-8&quot;&gt;พนักงานทำความสะอาด" vertex="1">
+          <mxGeometry height="60" width="180" x="840" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

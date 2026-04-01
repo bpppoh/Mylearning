@@ -191,9 +191,6 @@ def bgr2cmyk(img) :
     c = (1 - r - k) / (1 - k + 1e-10)
     m = (1 - g - k) / (1 - k + 1e-10)
     y = (1 - b - k) / (1 - k + 1e-10)
-    # c = 1 - r
-    # m = 1 - g
-    # y = 1 - b
     return np.stack([c,m,y,k],axis=2)
 
 def cmyk2bgr(img) :

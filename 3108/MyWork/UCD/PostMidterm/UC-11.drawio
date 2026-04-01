@@ -1,0 +1,87 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="t_rn4AQ-CmBYyyi8T9gE">
+    <mxGraphModel dx="768" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-2" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6600CC;" target="z-o6HoNOcRBkrZsgkUDD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-3" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000CC;" target="z-o6HoNOcRBkrZsgkUDD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="340" width="380" x="210" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-14" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" target="_a1yIt2g1Xxt46P9I9OE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FF0000;fillColor=#FF0000;" value="พนักงานฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#6600CC;fillColor=#6600CC;" value="ผู้จัดการฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0000CC;fillColor=#0000CC;" value="เจ้าของบริษัทฯ" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-14" edge="1" parent="1" source="z-o6HoNOcRBkrZsgkUDD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-15" connectable="0" parent="z-o6HoNOcRBkrZsgkUDD-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2133" y="-1" as="geometry">
+            <mxPoint x="-1" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="z-o6HoNOcRBkrZsgkUDD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z-o6HoNOcRBkrZsgkUDD-27" connectable="0" parent="z-o6HoNOcRBkrZsgkUDD-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2111" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-6" edge="1" parent="1" source="_a1yIt2g1Xxt46P9I9OE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_a1yIt2g1Xxt46P9I9OE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-7" connectable="0" parent="_a1yIt2g1Xxt46P9I9OE-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2252" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;meta charset=&quot;utf-8&quot;&gt;จัดการสถานะห้องพัก" vertex="1">
+          <mxGeometry height="50" width="130" x="335" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="แสดงรายการห้องพัก" vertex="1">
+          <mxGeometry height="50" width="130" x="335" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-10" edge="1" parent="1" source="_a1yIt2g1Xxt46P9I9OE-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="_a1yIt2g1Xxt46P9I9OE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-12" connectable="0" parent="_a1yIt2g1Xxt46P9I9OE-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0718" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="อัปเดตสถานะห้องพัก" vertex="1">
+          <mxGeometry height="50" width="130" x="240" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-11" edge="1" parent="1" source="_a1yIt2g1Xxt46P9I9OE-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="_a1yIt2g1Xxt46P9I9OE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-13" connectable="0" parent="_a1yIt2g1Xxt46P9I9OE-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0449" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_a1yIt2g1Xxt46P9I9OE-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="แก้ไขข้อมูลห้องพัก" vertex="1">
+          <mxGeometry height="50" width="130" x="430" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
