@@ -24,6 +24,7 @@ def image_show(img) :
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     cv2.waitKey(1)
+    return img
     
 def sobel(img) :
     gx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=3)  
@@ -35,11 +36,20 @@ def equalization(img,hist=None):
     if hist is None :
         cdf = cv2.calcHist([img],[0],None,[256],[0,256]).flatten().cumsum()
     else :
-        cdf = hist.cumsum()
+        cdf = hist.flatten().cumsum()
     cdf_m = np.ma.masked_equal(cdf, 0) 
     cdf_m = ((cdf_m - cdf_m.min())  / (cdf_m.max() - cdf_m.min()))*255
     cdf = np.ma.filled(cdf_m, 0).astype('uint8')
     return cdf[img]
+
+def log_transformation(img):
+    img_float = img.astype(np.float64)
+    max_val = np.max(img_float)
+    if max_val == 0:
+        return img
+    c = 255 / np.log(1 + max_val)
+    log_img = c * (np.log(1 + img_float))
+    return log_img.astype(np.uint8)
 
 def init_transform() :
     return np.identity(3,dtype='float')
@@ -86,15 +96,25 @@ def img_transform(img, T):
                 out[yn,xn] = img[y,x]
     return out.astype(np.uint8)
 
-def split_image(img) :
-    row , col = img.shape
+def split_image(img, n=2):
+    row, col = img.shape[:2]
     out = []
-    y = [0 , row//2 , row-1]
-    x = [0 , col//2 , col-1]
-    for i in range(len(y)-1) :
-        for j in range(len(x)-1) :
-            out.append(img[y[i]:y[i+1],x[j]:x[j+1]])
+    
+    y_coords = np.linspace(0, row, n + 1, dtype=int)
+    x_coords = np.linspace(0, col, n + 1, dtype=int)
+    
+    for i in range(n):
+        for j in range(n):
+            segment = img[y_coords[i]:y_coords[i+1], x_coords[j]:x_coords[j+1]]
+            out.append(segment)
+            
     return out
+
+def merge_image(img_list):
+    n = int(np.sqrt(len(img_list)))
+    h, w = img_list[0].shape[:2]
+    rows = [cv2.hconcat(img_list[i*n : (i+1)*n]) for i in range(n)]
+    return cv2.vconcat(rows)
 
 def split_image_color(img) :
     row , col , space = img.shape
@@ -167,16 +187,10 @@ def rgb2hsv(img) :
 
 def saturation_adjust(hsv_img,factor,st,en) :
     h,s,v = cv2.split(hsv_img)
-    blue_mask = (h>=st) & (h<=en)
-    s[blue_mask] = s[blue_mask] * factor
+    mask = (h>=st) & (h<=en)
+    s[mask] = s[mask] * factor
     s = np.clip(s,0,1.0)
     return np.stack([h,s,v],axis=2)
-
-def merge_image(img_list) :
-    return cv2.vconcat([
-        cv2.hconcat([img_list[0],img_list[1]]),
-        cv2.hconcat([img_list[2],img_list[3]])
-    ])
     
 def hsv2gray(img) :
     return cv2.cvtColor(cv2.cvtColor(img,cv2.COLOR_HSV2RGB),cv2.COLOR_RGB2GRAY)
